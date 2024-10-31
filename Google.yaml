@@ -1,5 +1,8 @@
 name: Google
 
 http:
+  mitm:
+    - www.g.cn
+    - www.google.cn
   url-rewrite:
     - ^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) 302 https://www.google.com
