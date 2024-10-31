@@ -3,7 +3,3 @@ name: Google
 http:
   url-rewrite:
     - ^https?://(www.)?(g|google).cn https://www.google.com 302
-  # 开启 MitM 功能的域名列表，需要确保上述 CA 证书已受系统信任
-  mitm:
-    - g.cn
-    - '*.google.cn'
