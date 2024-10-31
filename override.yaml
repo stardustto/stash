@@ -1,0 +1,3 @@
+  url-rewrite:
+    - ^http://g\.cn http://www.google.com header # 重写请求头的域名
+    - ^https?://www\.google\.cn https://www.google.com 302 # 直接返回一个 302 重定向的响应
