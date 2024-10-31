@@ -5,4 +5,4 @@ http:
     - www.g.cn
     - www.google.cn
   url-rewrite:
-    - ^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) 302 https://www.google.com
+    - ^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) https://www.google.com 302
