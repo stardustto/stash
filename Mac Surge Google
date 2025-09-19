@@ -1,8 +1,0 @@
-#!name=Google Rewrite
-#!desc=Safari 谷歌搜索重定向（Surge）
-
-[URL Rewrite]
-^https?:\/\/(www.)?(g|google)\.(cn|com\.hk) https://www.google.com/ncr 302
-
-[MITM]
-hostname = www.google.cn, www.g.cn
